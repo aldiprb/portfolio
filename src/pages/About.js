@@ -46,7 +46,7 @@ const About = () => {
           
           <div className="info-section">
             <div className="name-header">
-              <h1>Aldi Beneditc Purba</h1>
+              <h1>ALDI BENEDITC PURBA</h1>
               <div className="roles">
                 <p>Character Designer/ Illustrator</p>
                 <p>Graphic Designer</p>

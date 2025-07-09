@@ -34,10 +34,27 @@
   height: 470px;
   border-radius: 25px;
   overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.7);
+  box-shadow:
+    -1px -1px 0 rgb(134, 130, 249),
+     1px -1px 0 rgb(134, 130, 249),
+    -1px  1px 0 rgb(134, 130, 249),
+     10px  10px 0 rgb(134, 130, 249);
   z-index: 3;
   position: relative;
   margin-top: -40px;
+  transition: outline 0.3s, box-shadow 0.3s; /* Animasi transisi */
+  outline: 0 solid white; /* Awalnya outline tidak terlihat */
+}
+
+.profile-image:hover {
+  outline: 4px solid white; /* Outline putih setebal 4px */
+  outline-offset: -4px; /* Mengatur outline agar masuk ke dalam */
+  box-shadow:
+    -1px -1px 0 rgb(134, 130, 249),
+     1px -1px 0 rgb(134, 130, 249),
+    -1px  1px 0 rgb(134, 130, 249),
+     10px  10px 0 rgb(134, 130, 249),
+     13px 13px 15px 13px rgba(0, 0, 0, 0.15); /* Bayangan hitam tambahan */
 }
 
 .profile-image img {
@@ -54,11 +71,19 @@
 }
 
 .name-header h1 {
-  font-size: 3.8rem;
+  font-size: 4.0rem;
   font-weight: 700;
   margin: 0;
   line-height: 1.2;
+  color: rgb(255, 185, 55);
+  text-shadow:
+    -1px -1px 0 rgb(134, 130, 249),
+     1px -1px 0 rgb(134, 130, 249),
+    -1px  1px 0 rgb(134, 130, 249),
+     4px  2px 0 rgb(134, 130, 249);
 }
+
+
 
 .roles {
   font-weight: 600;

@@ -452,8 +452,17 @@ body {
   margin-bottom: 30px;
   padding-bottom: 10px;
   border-bottom: 3px solid white;
-  color: white;
+  font-weight: 700;
+  line-height: 1.2;
+  color: rgb(255, 187, 60);
+  text-shadow:
+    -1px -1px 0 rgb(134, 130, 249),
+     1px -1px 0 rgb(134, 130, 249),
+    -1px  1px 0 rgb(134, 130, 249),
+     4px  2px 0 rgb(134, 130, 249),
+     5px 5px 10px rgba(0, 0, 0, 0.15); /* Bayangan hitam tambahan (valid) */
 }
+
 
 .section-title::after {
   content: '';
