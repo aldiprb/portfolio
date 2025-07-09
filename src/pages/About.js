@@ -1,12 +1,26 @@
 // src/components/About.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './About.css';
 
 const About = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   const handleScrollToPortfolio = () => {
-    // Scroll ke bawah sebesar 800px dari posisi saat ini
+    // Adjust scroll distance based on device
+    const scrollDistance = isMobile ? 600 : 800;
     window.scrollBy({
-      top: 800,
+      top: scrollDistance,
       behavior: 'smooth'
     });
   };
@@ -17,7 +31,11 @@ const About = () => {
         <div className="about-content">
           <div className="profile-section">
             <div className="profile-image">
-              <img src={process.env.PUBLIC_URL + "/pfp.jpg"} alt="Aldi Beneditc Purba" />
+              <img 
+                src={process.env.PUBLIC_URL + "/pfp.jpg"} 
+                alt="Aldi Beneditc Purba"
+                loading="lazy"
+              />
             </div>
             <div className="decorative-circles">
               <div className="circle circle-1"></div>

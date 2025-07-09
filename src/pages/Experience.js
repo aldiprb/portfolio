@@ -1,9 +1,20 @@
 // src/components/Experience.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Experience.css';
 
 const Experience = () => {
   const [openItems, setOpenItems] = useState({});
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  // Handle window resize for responsive behavior
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const toggleItem = (category, index) => {
     const key = `${category}-${index}`;
@@ -76,6 +87,14 @@ const Experience = () => {
         <div 
           className={`experience-card ${isOpen ? 'expanded' : ''}`}
           onClick={() => toggleItem(category, index)}
+          role="button"
+          tabIndex={0}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              toggleItem(category, index);
+            }
+          }}
         >
           <div className="experience-header">
             <h4>{exp.title}</h4>

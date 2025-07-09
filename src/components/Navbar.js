@@ -4,10 +4,10 @@ import './Navbar.css';
 import { Link } from 'react-router-dom';
 import logoImg from './pfp.jpg';
 
-
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('about');
   const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,8 +32,20 @@ const Navbar = () => {
       }
     };
 
+    // Handle resize to close mobile menu on desktop
+    const handleResize = () => {
+      if (window.innerWidth > 768) {
+        setMobileMenuOpen(false);
+      }
+    };
+
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleResize);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   const scrollToSection = (sectionId) => {
@@ -44,6 +56,12 @@ const Navbar = () => {
         behavior: 'smooth'
       });
     }
+    // Close mobile menu after clicking
+    setMobileMenuOpen(false);
+  };
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
   };
 
   const navItems = [
@@ -58,10 +76,22 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <div className="logo">
-          <img src={logoImg} alt="Logo" style={{ width: '40px', height: '40px', borderRadius: '50%' }} />
-          Aldi Beneditc Purba
+          <img src={logoImg} alt="Logo" />
+          <span>Aldi Beneditc Purba</span>
         </div>
-        <ul className="nav-links">
+        
+        {/* Hamburger Menu Button */}
+        <div 
+          className={`hamburger-menu ${mobileMenuOpen ? 'active' : ''}`}
+          onClick={toggleMobileMenu}
+        >
+          <div className="hamburger-line"></div>
+          <div className="hamburger-line"></div>
+          <div className="hamburger-line"></div>
+        </div>
+
+        {/* Navigation Links */}
+        <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
           {navItems.map((item) => (
             <li key={item.id}>
               <button 
