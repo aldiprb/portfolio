@@ -1,0 +1,125 @@
+/* src/components/Education.css */
+.section {
+  padding: 80px 0;
+  min-height: 100vh;
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 4rem;
+  font-weight: 1000;
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 200px;
+  height: 6px;
+  background: white;
+  border-radius: 3px;
+}
+
+.education-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.education-card {
+  background: linear-gradient(135deg, rgb(26, 14, 14), rgb(38, 19, 19));
+  border-radius: 20px;
+  padding: 0;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.education-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.25);
+}
+
+.education-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  outline: 2px solid #ffffff; /* Contoh: outline biru setebal 5px */
+  
+}
+
+.education-content {
+  padding: 30px;
+}
+
+.education-header {
+  margin-bottom: 20px;
+}
+
+.education-header h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0px;
+  padding: 12px 20px;
+
+}
+
+.education-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.education-description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  margin-left: 18px;
+}
+
+.education-score {
+  color: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.education-score span {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .education-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .section-title {
+    font-size: 3rem;
+  }
+  
+  .education-header h3 {
+    font-size: 1.3rem;
+  }
+}
