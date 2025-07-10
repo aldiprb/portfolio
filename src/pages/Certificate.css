@@ -22,7 +22,12 @@
 
 .certificate-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  box-shadow:
+    -1px -1px 0 rgb(134, 130, 249),
+     1px -1px 0 rgb(134, 130, 249),
+    -1px  1px 0 rgb(134, 130, 249),
+     10px 10px 0 rgb(134, 130, 249),
+     13px 13px 15px 13px rgba(0, 0, 0, 0.15);
 }
 
 /* Media Section */
