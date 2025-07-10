@@ -38,24 +38,29 @@
     -1px -1px 0 rgb(134, 130, 249),
      1px -1px 0 rgb(134, 130, 249),
     -1px  1px 0 rgb(134, 130, 249),
-     10px  10px 0 rgb(134, 130, 249);
+     10px 10px 0 rgb(134, 130, 249);
   z-index: 3;
   position: relative;
-  margin-top: -40px;
-  transition: outline 0.3s, box-shadow 0.3s; /* Animasi transisi */
-  outline: 0 solid white; /* Awalnya outline tidak terlihat */
+  margin-top: -80px;
+  transition: 
+    outline 0.3s,
+    box-shadow 0.3s,
+    transform 0.3s; /* Tambahkan transisi untuk transform */
+  outline: 0 solid white;
 }
 
 .profile-image:hover {
-  outline: 4px solid white; /* Outline putih setebal 4px */
-  outline-offset: -4px; /* Mengatur outline agar masuk ke dalam */
+  outline: 4px solid white;
+  outline-offset: -4px;
   box-shadow:
     -1px -1px 0 rgb(134, 130, 249),
      1px -1px 0 rgb(134, 130, 249),
     -1px  1px 0 rgb(134, 130, 249),
-     10px  10px 0 rgb(134, 130, 249),
-     13px 13px 15px 13px rgba(0, 0, 0, 0.15); /* Bayangan hitam tambahan */
+     10px 10px 0 rgb(134, 130, 249),
+     13px 13px 15px 13px rgba(0, 0, 0, 0.15);
+  transform: translate(-10px, -10px); /* Efek bergerak ke kiri atas */
 }
+
 
 .profile-image img {
   width: 100%;
