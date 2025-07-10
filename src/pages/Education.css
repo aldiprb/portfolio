@@ -50,7 +50,15 @@
 
 .education-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 30px 60px rgba(0,0,0,0.25);
+  outline: 4px solid white;
+  outline-offset: -4px;
+  box-shadow:
+    -1px -1px 0 rgb(134, 130, 249),
+     1px -1px 0 rgb(134, 130, 249),
+    -1px  1px 0 rgb(134, 130, 249),
+     10px 10px 0 rgb(134, 130, 249),
+     13px 13px 15px 13px rgba(0, 0, 0, 0.15);
+  transform: translate(-10px, -10px); /* Efek bergerak ke kiri atas */
 }
 
 .education-image {

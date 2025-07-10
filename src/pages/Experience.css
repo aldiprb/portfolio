@@ -43,15 +43,28 @@
 }
 
 .experience-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-  border: 2px solid white;
+outline: 4px solid white;
+  outline-offset: -4px;
+  box-shadow:
+    -1px -1px 0 rgb(134, 130, 249),
+     1px -1px 0 rgb(134, 130, 249),
+    -1px  1px 0 rgb(134, 130, 249),
+     10px 10px 0 rgb(134, 130, 249),
+     13px 13px 15px 13px rgba(0, 0, 0, 0.15);
+  transform: translate(-10px, -10px); /* Efek bergerak ke kiri atas */
 }
 
 .experience-card.expanded {
   background: linear-gradient(90deg, #9b7d32, #e0c325);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-  border: 2px solid white;
+  outline: 4px solid white;
+  outline-offset: -4px;
+  box-shadow:
+    -1px -1px 0 rgb(134, 130, 249),
+     1px -1px 0 rgb(134, 130, 249),
+    -1px  1px 0 rgb(134, 130, 249),
+     10px 10px 0 rgb(134, 130, 249),
+     13px 13px 15px 13px rgba(0, 0, 0, 0.15);
+  transform: translate(-10px, -10px); /* Efek bergerak ke kiri atas */
 }
 
 .experience-header {

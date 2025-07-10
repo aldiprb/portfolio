@@ -75,6 +75,29 @@ const Experience = () => {
         "Coordinated decoration for various student programs",
         "Supported publication of student association materials"
       ]
+    },
+    {
+      title: "Head of Arts and Culture Division",
+      duration: "Feb 2020 - Feb 2021",
+      organization: "Student Council of Santo Thomas 3 High School",
+      description: "Planners/Committee and participants in Student Council events, take part in the decoration and documentation section",
+      responsibilities: [
+        "Lead the Arts & Culture Division within the Student Council, overseeing its members and activities.",
+        "Conceptualize, plan, and implement decorative elements to enhance Student Council events.",
+        "Manage the documentation process (e.g., photos, videos) for Student Council events for archival or promotional use.",
+        "Actively participate in planning committees and event execution as needed, supporting overall event success beyond decoration and documentation."
+      ]
+    },
+    {
+      title: "Head of Arts Extracurricular",
+      duration: "June 2021 - May 2022",
+      organization: "Arts Extracurricular of Santo Thomas 3 High School",
+      description: "As Head of the Arts Extracurricular at Santo Thomas 3 High School, the core responsibility involved leading initiatives to enhance the school's artistic environment and participation. This included spearheading a mural painting project to create a more welcoming atmosphere, actively contributing to the decoration and stage equipment setup for art performance events, and organizing art competitions specifically for significant occasions like the school's Independence Day celebrations.",
+      responsibilities: [
+        "Holding a mural painting event to create a comfortable school impression.",
+        "Taking part in the art performance event process, in decoration and stage equipment.",
+        "Holding an art competition in special events such as Independence Day.",
+      ]
     }
   ];
 
