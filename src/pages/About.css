@@ -86,7 +86,21 @@
      1px -1px 0 rgb(134, 130, 249),
     -1px  1px 0 rgb(134, 130, 249),
      4px  2px 0 rgb(134, 130, 249);
+  transition: all 0.3s ease;
+  -webkit-text-stroke: 0px white; /* default tanpa stroke */
 }
+
+.name-header h1:hover {
+  -webkit-text-stroke: 1px white; /* outline putih yang menempel */
+  text-shadow:
+    -1px -1px 0 rgb(134, 130, 249),
+     1px -1px 0 rgb(134, 130, 249),
+    -1px  1px 0 rgb(134, 130, 249),
+     4px  2px 0 rgb(134, 130, 249),
+    2px 4px 10px rgba(0, 0, 0, 0.4);
+  transform: translate(-5px, -5px);
+}
+
 
 
 
