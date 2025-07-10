@@ -21,7 +21,12 @@
   font-weight: 600;
   background: linear-gradient(90deg, #9F7F27, #FFB800);
   border: 2px solid white;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  box-shadow:
+    -1px -1px 0 rgb(134, 130, 249),
+     1px -1px 0 rgb(134, 130, 249),
+    -1px  1px 0 rgb(134, 130, 249),
+     5px 5px 0 rgb(134, 130, 249),
+     13px 13px 15px 13px rgba(0, 0, 0, 0.15);
 }
 
 .category-btn.active {
@@ -29,7 +34,12 @@
   font-weight: 600;
   background: linear-gradient(90deg, #9F7F27, #FFB800);
   border: 2px solid white;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  box-shadow:
+    -1px -1px 0 rgb(134, 130, 249),
+     1px -1px 0 rgb(134, 130, 249),
+    -1px  1px 0 rgb(134, 130, 249),
+     5px 5px 0 rgb(134, 130, 249),
+     13px 13px 15px 13px rgba(0, 0, 0, 0.15);
 }
 
 .projects-grid {
