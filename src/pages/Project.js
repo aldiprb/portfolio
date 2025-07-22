@@ -58,7 +58,8 @@ const Project = () => {
       description: "SANT.AI is a web application that uses the React.js framework based on AI Computer Vision designed to identify the quality of palm oil liquid waste or POME (Palm Oil Mill Effluent) and also uses a simple AI chatbot that is used for questions about palm oil.",
       mediaUrl: "https://drive.google.com/file/d/1z_4HHVuBR2pjIPHNiuFiy8EXtI-lOnCr/view?usp=sharing",
       mediaType: "video",
-      thumbnail: santaiImage // Local thumbnail
+      thumbnail: santaiImage,
+      githubUrl: "https://github.com/aldiprb/SANTAI-web-app-POME-quality-identification-/tree/main/src"
     },
     {
       title: "Study Program Mascot of Software Engineering",
@@ -66,7 +67,7 @@ const Project = () => {
       category: "illustration",
       mediaUrl: "https://drive.google.com/file/d/1EhAmFkaxhW5DhXeRkeUKfYT9gvgvpyVL/view?usp=sharing",
       mediaType: "image",
-      thumbnail: mascotImage // Local thumbnail
+      thumbnail: mascotImage
     },
     {
       title: "Fantasy Character: White Ethnic Mage",
@@ -74,7 +75,7 @@ const Project = () => {
       category: "illustration",
       mediaUrl: "https://drive.google.com/file/d/1KwtPePncuvufiryReugKwUMBrGYI19Ur/view?usp=sharing",
       mediaType: "image",
-      thumbnail: whiteImage // Local thumbnail
+      thumbnail: whiteImage
     },
     {
       title: "Product Book (Crown)",
@@ -83,7 +84,7 @@ const Project = () => {
       description: `This promotional design for Crown Textile & Tailor – Men's Collection showcases a premium men's tailoring service with a luxurious maroon and gold theme. Featuring a stylized crown logo, glowing serif fonts, and a sharp suit visual, it emphasizes elegance and exclusivity. Two package options are clearly presented: "Horse Hair Interlining" and "Regular Lining," each offering combinations of suit, trousers, vest, shirt, and tie with prices in Indonesian Rupiah. The use of gradients, shadows, and watermark branding enhances the premium feel and brand identity.`,
       mediaUrl: "https://drive.google.com/file/d/1Vo3va5s-aaWvr0JbO-BDPNmaN_3rkxmd/view?usp=sharing",
       mediaType: "pdf",
-      thumbnail: crownImage // Changed: Use the imported image directly
+      thumbnail: crownImage
     },
     {
       title: "Fantasy Character: Unexpected Pastor",
@@ -91,7 +92,7 @@ const Project = () => {
       category: "illustration",
       mediaUrl: "https://drive.google.com/file/d/1dAc8gqX8nO0q2WWR9yBWchokcujHN6un/view?usp=sharing",
       mediaType: "image",
-      thumbnail: pastorImage // Local thumbnail
+      thumbnail: pastorImage
     },
     {
       title: "Gear 5 Luffy",
@@ -99,7 +100,7 @@ const Project = () => {
       category: "illustration",
       mediaUrl: "https://drive.google.com/file/d/1DwxGZecEAGWys2wHrnBKgOJRLj1Cj3uj/view?usp=sharing",
       mediaType: "image",
-      thumbnail: luffyImage // Local thumbnail
+      thumbnail: luffyImage
     },
     {
       title: "Website Ayam Geprek Mas Andre",
@@ -108,7 +109,8 @@ const Project = () => {
       description: "This website is a CRUD website for ordering food Client-Server which is made using Native Programming in PHP, CSS, JavaScript and HTML as HyperText. In the client or user interface, you can order food which will later be entered into the database, and in the admin section, you can run CRUD on the product and see orders from the client.",
       mediaUrl: "https://drive.google.com/file/d/1iKz7kg8fUeFipjs9iiGmXlSyC43R3pJT/view?usp=sharing",
       mediaType: "video",
-      thumbnail: ayamImage // Local thumbnail
+      thumbnail: ayamImage,
+      githubUrl: "https://github.com/aldiprb/ayam-geprek-mas-andre" // Add your actual GitHub URL here
     },
     {
       title: "Hospital Website",
@@ -117,7 +119,8 @@ const Project = () => {
       description: "Admin website that uses CI4 Framework where the website can perform CRUD on the patient biodata page, the patient's illness and its description, and the medicine that the patient will use. Link: https://rspolmed.wuaze.com/index.php/login Username : test pass : test123",
       mediaUrl: "https://drive.google.com/file/d/150GWd3aHyaKrWNSStLLoy-d3m-8aq1Kd/view?usp=sharing",
       mediaType: "video",
-      thumbnail: rumahsakitImage // Local thumbnail
+      thumbnail: rumahsakitImage,
+      githubUrl: "https://github.com/aldiprb/rumah-sakit-polmed" // Add your actual GitHub URL here
     },
     {
       title: "Student Council ID Card",
@@ -126,7 +129,7 @@ const Project = () => {
       description: `This poster design presents a modern and dynamic layout, highlighting a member of an organization in a bold and engaging way. The central focus is on the individual's photo, outlined in white to stand out against a vibrant purple and orange background featuring repeated text for depth. A monochromatic silhouette adds visual interest, while the large, shadowed name text draws immediate attention. The clean lower section displays the role ("Member | Publication & Documentation") within a bright orange container, accompanied by social media icons to emphasize connectivity. Overall, the design effectively combines layered typography, strong color contrast, and digital aesthetics to create a professional and appealing member profile poster.`,
       mediaUrl: "https://drive.google.com/file/d/1Y7lKQJYLbgUDUfB--ScuJ9jc2spWaksF/view?usp=sharing",
       mediaType: "pdf",
-      thumbnail: idcardImage // Changed: Use the imported image directly
+      thumbnail: idcardImage
     },
     {
       title: "Calender A3",
@@ -135,7 +138,7 @@ const Project = () => {
       description: `The 2024 calendar design for GEKISIA Medan features a spiritually uplifting and organized aesthetic, combining a serene top banner with practical monthly layouts; the upper section showcases a powerful silhouette of a cross and a person gazing at a vast sky with birds, evoking a sense of hope and freedom, while the lower portion cleanly presents two months at a time with a clear, readable grid, accented by warm, earthy tones and subtle gradients, creating an overall impression that is both reverent and user-friendly.`,
       mediaUrl: "https://drive.google.com/file/d/1_QGlT8ZO6t6MBxT0_IJrFbarukeNk63S/view?usp=sharing",
       mediaType: "pdf",
-      thumbnail: calenderImage // Changed: Use the imported image directly
+      thumbnail: calenderImage
     },
     {
       title: "T-shirt Design Prototype",
@@ -144,7 +147,7 @@ const Project = () => {
       description: `The design for "RETREAT PPPR KORWILA V" features a modern and inspiring aesthetic, centered around a bold dark blue sphere textured with light, flowing topographical lines, which evokes a sense of depth and journey; superimposed on this sphere are the large, impactful yellow words "PRODUCTIVE AND CREATIVE LIFE," rendered in a clear, strong typeface, suggesting the core themes of the retreat, while subtle touches like three small crosses at the top, a few scattered stars, and fluffy white clouds add spiritual and whimsical elements against a cool blue background with a subtle dotted pattern, creating an overall impression that is both motivational and spiritually grounded.`,
       mediaUrl: "https://drive.google.com/file/d/1nHaeYM5UPKy_LypajpCPTZgUaUf_2Jw8/view?usp=sharing",
       mediaType: "pdf",
-      thumbnail: tshirtImage // Changed: Use the imported image directly
+      thumbnail: tshirtImage
     },
     {
       title: "IG Post Design",
@@ -153,7 +156,7 @@ const Project = () => {
       description: `This document is an open recruitment poster for the 2025/2026 Software Student Association administrators. This poster includes a list of available divisions (Daily Management Board, Arts and Sports, Publication and Documentation, Secretariat, Public Relations, Science and Technology, Christian Religion, and Islamic Religion), general qualifications of applicants (active 3-5 semester students of POLMED, GPA min 3.00, have a Student ID Card, and attach certificates if any), as well as special requirements for the Publication & Documentation Division (ability to edit photos/videos and understand TikTok/Instagram) and the Science and Technology Division (uploading CV and portfolio). Contact information is also provided via Instagram and email.`,
       mediaUrl: "https://drive.google.com/file/d/1MOIUIu8rXjJEUWYvroik9PSu-XsrxbiH/view?usp=sharing",
       mediaType: "pdf",
-      thumbnail: recruitmentImage // Changed: Use the imported image directly
+      thumbnail: recruitmentImage
     },
     {
       title: "Christmas Banner",
@@ -162,7 +165,7 @@ const Project = () => {
       description: `The "Christmas Celebration" design for GEKISIA Jemaat Medan conveys a festive yet reverent atmosphere, blending a sophisticated dark central panel with a lighter, understated gray background; the central section prominently features a cross and the elegant, celebratory text "Christmas Celebration," enhanced by falling golden confetti and sparkling stars that evoke a sense of joy and occasion, while the clear date and time on the left, along with the church's logo and address on the right, provide essential practical details, creating an overall impression that is both inviting and spiritually focused for the upcoming celebration.`,
       mediaUrl: "https://drive.google.com/file/d/1IgDjGPMse-ENHLnibSkBPwkVdheyBYoX/view?usp=sharing",
       mediaType: "pdf",
-      thumbnail: christmasImage // Changed: Use the imported image directly
+      thumbnail: christmasImage
     },
     {
       title: "Introduction Banner",
@@ -171,7 +174,7 @@ const Project = () => {
       description: `The design for "PKKMB TRPL 24!" by Politeknik Negeri Medan presents a dynamic and engaging visual, primarily characterized by its vibrant purple background and striking 3D-rendered green text that immediately captures attention; the inclusion of elements like a flying airplane, a laptop displaying "HELLO WORLD," and a briefcase cleverly suggests themes of technology, innovation, and learning, while the prominent date "26 Agustus 2024" on a contrasting orange panel grounds the design in a specific event, creating an overall impression that is energetic, modern, and highly relevant to an academic technology program.`,
       mediaUrl: "https://drive.google.com/file/d/1r2YB9b8lFOH5M63wHRRqeclygslBg-kV/view?usp=sharing",
       mediaType: "pdf",
-      thumbnail: introImage // Changed: Use the imported image directly
+      thumbnail: introImage
     },
     {
       title: "Tournament Banner",
@@ -180,7 +183,7 @@ const Project = () => {
       description: `The design for the Mobile Legends: Bang Bang tournament creates an exciting and energetic impression, primarily through its vibrant purple and pink color scheme and dynamic portrayal of two popular game characters in action poses, flanking the bold "TOURNAMENT" text; the prominent placement of the "Mobile Legends: Bang Bang" logo reinforces the event's focus, while essential details like the dates "09 | 17 MEI 2025," "CAFE BOY" location, and a QR code are integrated clearly, resulting in an overall design that is visually appealing, action-oriented, and effectively communicates the essence of an esports event.`,
       mediaUrl: "https://drive.google.com/file/d/1f60P1c0eRSnNMcA02yKJ0wtUa2fScaYN/view?usp=sharing",
       mediaType: "pdf",
-      thumbnail: tournamentImage // Changed: Use the imported image directly
+      thumbnail: tournamentImage
     }
     
   ];
@@ -195,6 +198,11 @@ const Project = () => {
     } else {
       window.open(project.mediaUrl, '_blank');
     }
+  };
+
+  const handleGithubClick = (e, githubUrl) => {
+    e.stopPropagation();
+    window.open(githubUrl, '_blank');
   };
 
   const handleImageLoad = (e, projectTitle) => {
@@ -269,6 +277,20 @@ const Project = () => {
                   <span className="project-year">{project.year}</span>
                 </div>
                 <p className="project-description">{project.description}</p>
+                
+                {/* GitHub button for web projects */}
+                {project.category === 'web' && project.githubUrl && (
+                  <div className="project-actions">
+                    <button 
+                      className="github-btn"
+                      onClick={(e) => handleGithubClick(e, project.githubUrl)}
+                    >
+                      <span className="github-icon">⭐</span>
+                      View on GitHub
+                    </button>
+                  </div>
+                )}
+                
                 <div className="project-category">
                   {categories.find(cat => cat.id === project.category)?.name}
                 </div>
