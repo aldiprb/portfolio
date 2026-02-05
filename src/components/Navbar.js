@@ -1,7 +1,6 @@
 // src/components/Navbar.js
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
 import logoImg from './pfp.jpg';
 
 const Navbar = () => {

@@ -4,7 +4,7 @@ import './Experience.css';
 
 const Experience = () => {
   const [openItems, setOpenItems] = useState({});
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [, setIsMobile] = useState(window.innerWidth <= 768);
 
   // Handle window resize for responsive behavior
   useEffect(() => {
