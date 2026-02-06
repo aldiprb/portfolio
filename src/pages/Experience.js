@@ -60,13 +60,28 @@ const Experience = () => {
         "Worked with clients to understand project requirements",
         "Delivered high-quality artwork within deadlines"
       ]
+    },
+        {
+      title: "IT Support Internship",
+      duration: "Jan 2026 - Feb 2026",
+      organization: "Regional Revenue Agency of North Sumatra Province",
+      description: "I completed an IT Support Internship at the Regional Revenue Agency of North Sumatra Province (Badan Pendapatan Daerah Provinsi Sumatera Utara). During this internship, I assisted in supporting daily IT operations, including hardware and software maintenance, user support, and basic network troubleshooting. This role allowed me to gain hands-on experience in handling technical issues in a government environment while ensuring reliable and efficient IT services to support administrative and operational activities.",
+      responsibilities: [
+        "Provided technical support for computers, printers, and office IT equipment",
+        "Assisted in installing, configuring, and maintaining software and operating systems",
+        "Troubleshot basic hardware, software, and network connectivity issues",
+        "Supported users in resolving technical problems and IT-related inquiries",
+        "Helped maintain data organization and system documentation",
+        "Assisted in ensuring the smooth operation of IT infrastructure within the office",
+        "Collaborated with the IT team to support daily operational tasks"
+      ]
     }
   ];
 
   const organizationExperiences = [
     {
       title: "Part of Decoration, Publication, and Documentation (DPD) Division",
-      duration: "Aug 2024 - Present",
+      duration: "Aug 2024 - Aug 2025",
       organization: "Student Association of Software Engineering Technology Study Program",
       description: "The Decoration, Publication, and Documentation (DPD) Division of the Student Association for the Software Engineering Technology Study Program at Medan State Polytechnic plays a vital role in supporting various student activities through creativity and visual communication. This division is responsible for creating aesthetic decorations for events, managing publications such as posters, social media content, and other promotional materials to enhance participation, and documenting activities through photos, videos, and reports as archives and promotional tools. With a focus on developing skills in design, communication, and collaboration, this division is essential in strengthening the program's identity, improving event quality, and creating memorable experiences for all participants.",
       responsibilities: [
